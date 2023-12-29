@@ -1,0 +1,132 @@
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  font-family: Inter;
+}
+
+
+body {
+  display: flex;
+  background-color: #2d333d;
+}
+
+.container {
+  width: 300px;
+  background-color: #1e1e24;
+}
+
+.header {
+  color: white;
+  height: 490px;
+  left: 50%;
+  right: 50%;
+  margin: 0;
+}
+
+.header-pic {
+  
+  width: 97%;
+  border: 5px solid black;
+  border-radius: 4px;
+  background-color: #2d333d;
+}
+
+.header-name {
+  margin: 10px;
+}
+
+.header-desc{
+  margin: 0;
+  color: #54a5d1;
+  font-size: 16px;
+}
+
+.header-email {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn-linkedin {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  height: 30px;
+  width: 90px;
+}
+
+.btn-linkedin > h4 {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-github {
+  display: flex;
+  margin-left: 10px;
+  height: 30px;
+  align-items: center;
+  width: 90px;
+}
+
+.btn-github > h5 {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.body-text {
+  background-color: #1e1e24;
+  margin: 0;
+  height: 100%;
+  color: white;
+}
+
+.about {
+  align-items:baseline;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about > h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.interests {
+  align-items:baseline;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.interests > h2 {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.interests > p {
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.check {
+  margin: 0;
+}
+
+.school {
+  margin: 0;
+  margin-top: 5px;
+}
